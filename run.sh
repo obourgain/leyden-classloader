@@ -33,7 +33,7 @@ $JAVA_HOME/bin/java                     \
 -XX:AOTCache=/tmp/issue.aot             \
 -Xlog:cds=debug                         \
 -cp $jar \
-issue.GenerateCDS
+issue.GenerateCDS $count
 #--add-opens java.base/java.util=ALL-UNNAMED \
 
 popd
