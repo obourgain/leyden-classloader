@@ -8,6 +8,7 @@ When there is about 30k classes or more, Leyden fails to use optimized module ha
 
 ## How to run
 
+$JAVA_HOME must be set with a JDK 24+
 Look at `run.sh`.
 1. build the project a first time and run [GenerateClasses.java](src/main/java/issue/GenerateClasses.java).
 This class will create 30k very simple classes in src/main/java/issue/gen. The classes are named Foo0...Foo29999.java.
